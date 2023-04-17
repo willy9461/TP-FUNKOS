@@ -19,7 +19,8 @@
             </picture>
             <ul class="navbar__menu">
                 <li class="navbar__item with-submenu">
-                    <a class="navbar__link with-icon"href="../pages/shop.html">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
+                    <a class="navbar__link with-icon" href="../pages/shop.html">SHOP<iconify-icon
+                            icon="tabler:chevron-down"></iconify-icon></a>
                     <ul class="submenu">
                         <li class="submenu__item">
                             <a href="" class="submenu__link">Funkos</a>
@@ -28,7 +29,7 @@
                             <a href="" class="submenu__link">Remeras</a>
                         </li>
                         <li class="submenu__item">
-                            <a href=""  class="submenu__link">LLaveros</a>
+                            <a href="" class="submenu__link">LLaveros</a>
                         </li>
                     </ul>
                 </li>
@@ -45,7 +46,7 @@
         <article class="hero__content container">
             <h3 class="hero__title">Nuevos Ingresos</h3>
             <p class="hero__text"> Descubrí el próximo Funko Pop de tu colección</p>
-            <a class="hero__link"href="../pages/shop.html">SHOP</a>
+            <a class="hero__link" href="../pages/shop.html">SHOP</a>
         </article> <!-- fin banner-->
     </section>
     <main class="main-container">
@@ -81,48 +82,62 @@
                     alt="Figura coleccionable Funko de Patronus de Snape de la pelicula de Harry Potter">
             </picture>
         </section>
-        <section>
-            <h2>ÚLTIMOS LANZAMIENTOS</h2>
-            <ul>
-                <li>
-                    <article>
-                        <a href="">
-                            <picture>
-                                <img src="../img/star-wars/trooper-1.webp"
+        <section class="slider container">
+            <h2 class="slider__title">ÚLTIMOS LANZAMIENTOS</h2>
+            <ul class="slider__items">
+                <li class="slider__item">
+                    <article class="card-item">
+                        <a class="card-item__link" href="">
+                            <picture class="card-item__cover">
+                                <tag class="card-item__tag">Nuevo</tag>
+                                <img class="card-item__img--front" src="../img/star-wars/trooper-1.webp"
                                     alt="Figura coleccionable Junko de un Stormtrooper">
+                                <img class="card-item__img--back" src="../img/star-wars/trooper-box.webp" 
+                                alt="Figura coleccionable Junko de un Stormtrooper en caja">
                             </picture>
-                            <p>STAR WARS</p>
-                            <h4>STORMTROOPER LIGHTSABER</h4>
-                            <p>$ 1799,99.-</p>
-                            <p>3 CUOTAS SIN INTERÉS</p>
+                            <div class="card-item__content">
+                                <p class="card-item__licence">STAR WARS</p>
+                                <h4 class="card-item__name">STORMTROOPER LIGHTSABER</h4>
+                                <p class="card-item__price">$ 1799,99.-</p>
+                                <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                            </div>
                         </a>
                     </article>
                 </li>
-                <li>
-                    <article>
-                        <a href="">
-                            <picture>
-                                <img src="../img/pokemon/pidgeotto-1.webp"
+                <li class="slider__item">
+                    <article class="card-item">
+                        <a class="card-item__link" href="">
+                            <picture class="card-item__cover">
+                                <tag class="card-item__tag">Nuevo</tag>
+                                <img class="card-item__img--front" src="../img/pokemon/pidgeotto-1.webp"
                                     alt="Figura coleccionable Junko de un Pidgeotto de la serie Pokemon">
+                                <img class="card-item__img--back" src="../img/pokemon/pidgeotto-box.webp" 
+                                alt="Figura coleccionable Junko de un Pidgeotto de la serie Pokemon en caja">
                             </picture>
-                            <p>POKEMON</p>
-                            <h4>PIDGEOTTO</h4>
-                            <p>$ 1799,99.-</p>
-                            <p>3 CUOTAS SIN INTERÉS</p>
+                            <div class="card-item__content">
+                                <p class="card-item__licence">POKEMON</p>
+                                <h4 class="card-item__name">PIDGEOTTO</h4>
+                                <p class="card-item__price">$ 1799,99.-</p>
+                                <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                            </div>
                         </a>
                     </article>
                 </li>
-                <li>
-                    <article>
-                        <a href="">
-                            <picture>
-                                <img src="../img/harry-potter/luna-1.webp"
+                <li class="slider__item">
+                    <article class="card-item">
+                        <a class="card-item__link" href="">
+                            <picture class="card-item__cover">
+                                <tag class="card-item__tag">Nuevo</tag>
+                                <img class="card-item__img--front" src="../img/harry-potter/luna-1.webp"
                                     alt="Figura coleccionable Junko de Luna de la pelicula de Harry Potter">
+                                <img class="card-item__img--back" src="../img/harry-potter/luna-box.webp" alt="Figura coleccionable Junko de Luna de la pelicula de Harry Potter en caja">
                             </picture>
-                            <p>HARRY POTTER</p>
-                            <h4>LUNA LOVEGOOD LION MASK</h4>
-                            <p>$ 1799,99.-</p>
-                            <p>3 CUOTAS SIN INTERÉS</p>
+                            <div class="card-item__content">
+                                <p class="card-item__licence">HARRY POTTER</p>
+                                <h4 class="card-item__name">LUNA LOVEGOOD LION MASK</h4>
+                                <p class="card-item__price">$ 1799,99.-</p>
+                                <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                            </div>
                         </a>
                     </article>
                 </li>
