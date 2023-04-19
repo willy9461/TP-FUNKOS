@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOP | Funkoshop</title>
-    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <header> <!-- Inicio Header-->
         <nav class="navbar container">
@@ -43,17 +45,42 @@
         <aside>
             <form class="aside__filter">
                 <p class="aside__text">buscar</p>
-                <input type="text" placeholder="item o categoria">
-                <label for="Funko select">Ordenar por</label>
-                <select name="Funkos" id="Funko select">
+                <input class="aside__input" type="text" placeholder="item o categoria">
+                <label class="aside__select" for="Funko select">Ordenar por</label>
+                <select class="aside__input" name="Funkos" id="Funko select">
                     <option value="">Mayor a menor</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <p>precio</p>
+                    <option value="">Menor a mayor</option>
+                    <option value="">Mas vendido</option>
+                    <option value="">Mas reciente</option>
                 </select>
-            </form>    
-
+                <p class="aside__text">precio</p>
+                <div class="aside__minmax">
+                    <label class="aside__select--number" for="Min-Max"> Min
+                        <input type="number" id="Min-Max">
+                        Max
+                        <input type="number" id="Min-Max">
+                    </label>
+                </div>
+                <p class="aside__text">filtrar</p>
+                <div class="aside__filtrar">
+                    <div>
+                        <input type="checkbox" id="nuevos" name="nuevos">
+                        <label for="nuevos">NUEVOS</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ofertas" name="ofertas">
+                        <label for="ofertas">OFERTAS</label> <br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="especial" name="especial">
+                        <label for="especial">EDICION ESPECIAL</label> <br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="favoritos" name="favoritos">
+                        <label for="favoritos">FAVORITOS</label>
+                    </div>
+                </div>
+            </form>
 
         </aside>
         <main>
@@ -248,13 +275,17 @@
         <nav class="navbar container">
             <ul class="navbar__items">
                 <li class="navbar__item">
-                    <a class="navbar__link" href="../pages/shop.html">SHOP</a></li>
+                    <a class="navbar__link" href="../pages/shop.html">SHOP</a>
+                </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="../pages/register.html">REGISTRARSE</a></li>
+                    <a class="navbar__link" href="../pages/register.html">REGISTRARSE</a>
+                </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="../pages/login.html">LOGIN</a></li>
+                    <a class="navbar__link" href="../pages/login.html">LOGIN</a>
+                </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="../pages/contact.html">CONTACTO</a></li>
+                    <a class="navbar__link" href="../pages/contact.html">CONTACTO</a>
+                </li>
             </ul>
             <picture>
                 <img src="../img/branding/isotype.svg" alt="isotipo de la marca Funkoshop">
@@ -263,6 +294,7 @@
         <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
-    
+
 </body>
+
 </html>
