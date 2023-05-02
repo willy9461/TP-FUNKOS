@@ -511,3 +511,118 @@ header {
     color: #1D84B5;
     ;
 }
+
+/* ADMIN */
+
+.salir {
+    font-family: var(--alternative-font);
+    font-size: var(--spacing-20);
+    font-weight: 500;
+}
+
+.container_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: var(--spacing-20);
+}
+
+.icon_search {
+    width: 2rem;
+}
+
+.admin_title {
+    display: inline-block;
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 700;
+}
+
+.container_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--spacing-24);
+    margin-bottom: var(--spacing-24);
+}
+
+.admin_agregar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-16);
+
+}
+
+.admin_add {
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+    font-weight: 700;
+}
+
+
+.admin_button {
+    padding: 0 var(--spacing-8) ;
+    background-color: var(--primary-solid);
+    color: var(--light-bg-solid);
+    font-size: var(--font-xlarge);
+    height: var(--spacing-36);
+    width: var(--spacing-36);
+    border: none;
+    border-radius: var(--spacing-8);
+   
+}
+
+/* TABLA CON GRID */
+
+
+.admin_table {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: var(--spacing-16);
+    justify-items: start;
+    align-items: center;
+    font-size: var(--font-medium);
+    margin: var(--spacing-20) 0;
+}
+
+.admin_table-id {
+    grid-column: 1;
+    /* grid-row: 1; */
+}
+
+.admin_table-codigo {
+    grid-column: 2/4;
+    /* grid-row: 1; */
+}
+
+.admin_table-nombre {
+    grid-column: 4/8;
+    /* grid-row: 1; */
+}
+
+
+.admin_table-categoria {
+    grid-column: 8/10;
+    /* grid-row: 1; */
+}
+
+
+.admin_table-lapiz {
+    grid-column: 11;
+    /* grid-row: 1; */
+    color: var(--secondary-solid);
+    justify-self: end;  
+    align-self: flex-start;   
+    /* padding: var(--spacing-12);    */
+    
+}
+
+.admin_table-basurero {
+    grid-column: 12;
+    /* grid-row: 1; */
+    color: var(--primary-solid);
+    justify-self: end;            
+}
