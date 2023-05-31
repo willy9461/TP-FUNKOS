@@ -657,12 +657,14 @@ margin-bottom: var(--spacing-36);
 .login_email {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-36);
+    align-items:center;
+    gap: var(--spacing-68);
 }
 
 .login_contraseña {
     display: flex;
     justify-content: center;
+    align-items:center;
     gap: var(--spacing-24);
 }
 
@@ -673,6 +675,21 @@ margin-bottom: var(--spacing-36);
     justify-content:stretch;
     align-items: center;
     gap: var(--spacing-16);
+}
+
+.login_input-email, .login_input-contraseña {
+    border: none;
+    border-bottom:2px solid #FF3333;
+}
+
+.login_label-contraseña{
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+}
+
+.login_label-email{
+    font-family: var(--base-font);
+    font-size: var(--font-large);
 }
 
 .login_ingresar-button {
