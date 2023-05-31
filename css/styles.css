@@ -631,6 +631,21 @@ header {
 
 /* LOGIN */
 
+.container_login {
+margin-top: var(--spacing-36);
+margin-bottom: var(--spacing-36);
+}
+
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-20);
+    margin-top: var(--spacing-28);
+}
+
 .login_title {
     display: flex;
     justify-content: center;
@@ -639,7 +654,26 @@ header {
     font-weight: 700;
 }
 
+.login_email {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-36);
+}
 
+.login_contraseña {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-24);
+}
+
+
+.login_ingresar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    align-items: center;
+    gap: var(--spacing-16);
+}
 
 .login_ingresar-button {
     display: inline;
@@ -650,3 +684,6 @@ header {
     color: var(--light-font-solid)
 }
 
+.login_olvide-contraseña {
+    color: #1D84B5;
+}
