@@ -626,3 +626,27 @@ header {
     color: var(--primary-solid);
     justify-self: end;            
 }
+
+
+
+/* LOGIN */
+
+.login_title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--alternative-font);
+    font-size: var(--font-jumbo);
+    font-weight: 700;
+}
+
+
+
+.login_ingresar-button {
+    display: inline;
+    width: var(--spacing-128);
+    padding: var(--spacing-16);
+    background-color: var(--primary-solid);
+    border: none;
+    color: var(--light-font-solid)
+}
+
