@@ -704,3 +704,48 @@ margin-bottom: var(--spacing-36);
 .login_olvide-contraseña {
     color: #1D84B5;
 }
+
+
+/* REGISTER*/ 
+
+.main_register {
+    margin-top: var(--spacing-20);
+    margin-bottom: var(--spacing-20);
+    gap: var(--spacing-24);
+}
+
+.register_title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--alternative-font);
+    font-size: var(--font-jumbo);
+    font-weight: 700;
+    margin-bottom: var(--spacing-24);
+}
+
+.register_subheader {
+    display: flex;
+    justify-content: center;
+    font-family: var(--alternative-font);
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+    margin-bottom: var(--spacing-24);
+}
+
+.register_form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*justify-items: center;*/
+    justify-items: baseline;
+    padding-inline: 25%;
+    gap: var(--spacing-24);
+}
+.register_input-red_line{
+    border: none;
+    border-bottom:2px solid #FF3333;
+}
+
+.register_label-contraseña{
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+}
